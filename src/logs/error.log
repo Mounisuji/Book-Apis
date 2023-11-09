@@ -1,0 +1,29 @@
+error - Nov-09-2023 12:11:40 : uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Our Food\Desktop\projects\Book_Apis\node_modules\express\lib\router\route.js:211:15)
+    at proto.<computed> [as get] (C:\Users\Our Food\Desktop\projects\Book_Apis\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\Our Food\Desktop\projects\Book_Apis\src\routes\bookRoutes.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (C:\Users\Our Food\Desktop\projects\Book_Apis\app.js:4:20)
+error - Nov-09-2023 12:24:24 : api error - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Book"
+error - Nov-09-2023 12:25:23 : api error - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Book"
+error - Nov-09-2023 12:27:39 : api error - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Book"
+error - Nov-09-2023 12:29:00 : api error - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Book"
+error - Nov-09-2023 12:37:05 : uncaughtException: book is not defined
+ReferenceError: book is not defined
+    at Object.<anonymous> (C:\Users\Our Food\Desktop\projects\Book_Apis\src\routes\bookRoutes.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (C:\Users\Our Food\Desktop\projects\Book_Apis\app.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+error - Nov-09-2023 13:09:28 : Book doesn't exists - "654c76d201eb9b6f01d97790"
